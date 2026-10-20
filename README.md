@@ -18,7 +18,7 @@ LUMAの実行環境一式は [Releases](https://github.com/UNSUNG4422/sandbox/re
 
 ## SENSE Onlineを遊ぶ
 
-1. このページの **Code → Download ZIP** からダウンロードし、ZIP全体を展開します。
+1. [SENSE Online Windows版のダウンロード](https://github.com/UNSUNG4422/sandbox/releases/download/sense-online-2026-10-20/SENSE-Online.zip)から配付用ZIPを取得し、ZIP全体を展開します。
 2. `SENSE-Online` フォルダ内の `SENSE-Online.exe` を起動します。
 3. 起動確認で「はい」を選び、自動で開くブラウザでルームを作成します。
 4. ゲーム画面の「招待リンク」を友達に共有します。
@@ -26,3 +26,5 @@ LUMAの実行環境一式は [Releases](https://github.com/UNSUNG4422/sandbox/re
 Pythonなどの追加インストールやCloudflareのアカウント登録は不要です。参加者は招待リンクから遊べます。
 
 詳しいルールや終了方法は [SENSE Onlineの説明](./SENSE-Online/README.md) を参照してください。
+
+SENSE Online単体の配付ZIPは [Releases](https://github.com/UNSUNG4422/sandbox/releases/tag/sense-online-2026-10-20) にあります。従来どおり **Code → Download ZIP** でリポジトリ全体を取得しても起動できます。

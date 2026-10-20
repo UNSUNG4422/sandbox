@@ -38,12 +38,14 @@
 
 **主催者の動作環境：Windows 10/11 64bit（x64）、インターネット接続。**
 
-1. リポジトリを **Code → Download ZIP** から取得し、ZIP全体を展開します。
-2. このフォルダの `SENSE-Online.exe` をダブルクリックします。
+1. [SENSE-Online.zipをダウンロード](https://github.com/UNSUNG4422/sandbox/releases/download/sense-online-2026-10-20/SENSE-Online.zip)し、ZIP全体を展開します。
+2. 展開した `SENSE-Online` フォルダ内の `SENSE-Online.exe` をダブルクリックします。
 3. 「このPCでゲームサーバーを起動しますか？」で「はい」を選びます。
 4. 自動で開くブラウザでルームを作成します。
 5. ゲーム画面の「招待リンク」を友達に共有します。
 6. 遊び終わったら、サーバーウィンドウの「サーバーを閉じる」またはウィンドウの×で終了します。
+
+元の配付用ZIPは [SENSE Onlineのリリース](https://github.com/UNSUNG4422/sandbox/releases/tag/sense-online-2026-10-20) に収録しています。従来どおりリポジトリを **Code → Download ZIP** から取得しても起動できます。
 
 PythonとCloudflare Tunnel用ツールは同梱しているため、追加インストールやアカウント登録は不要です。参加者はスマホ・PCのブラウザで参加でき、アプリ一式のダウンロードは不要です。
 
