@@ -1,0 +1,9 @@
+{
+  "name": "luma-desktop",
+  "productName": "LUMA",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A quiet puzzle of light",
+  "main": "main.cjs",
+  "license": "UNLICENSED"
+}

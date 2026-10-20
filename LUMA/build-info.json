@@ -1,0 +1,9 @@
+{
+  "product": "LUMA",
+  "version": "1.0.0",
+  "platform": "win32-x64",
+  "electron": "v44.9.1",
+  "electronArchiveSha256": "41bd7900bd42d0f49110a81617876137041fbbf473466920248ddb076349ef91",
+  "sourceCommit": "539bf258053f25b094549cf8da9cd583d21ac20c",
+  "stages": 45
+}
