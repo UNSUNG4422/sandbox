@@ -1,0 +1,5 @@
+SENSE original synthesized sound effects
+Copyright 2026. Dedicated to the public domain under CC0 1.0 Universal.
+Created by scripts/generate_sounds.py using mathematical oscillators.
+No third-party recordings or samples are included.
+https://creativecommons.org/publicdomain/zero/1.0/

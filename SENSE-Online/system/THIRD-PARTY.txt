@@ -1,0 +1,35 @@
+SENSE Online — Third-party software
+
+Python 3.14.8: Python Software Foundation License
+Official source: https://www.python.org/downloads/release/python-3148/
+License: python/LICENSE.txt
+
+cloudflared 2026.10.0: Copyright Cloudflare, Inc. / Apache License 2.0
+Official source: https://github.com/cloudflare/cloudflared/tree/2026.10.0
+License: cloudflared/LICENSE.txt
+
+Python dependencies are distributed as unmodified package files and metadata.
+Their license notices are retained under python/Lib/site-packages/*.dist-info/.
+Original generated sound effects: static/sounds/LICENSE.txt
+Bundled BGM: four MP3 files supplied by the host; catalog in static/bgm/tracks.json.
+Original file names: Pappa_Parappa.mp3, 2_23_AM.mp3, Cassette_Tape_Dream.mp3, 週末京都現実逃避.mp3
+
+Included versions:
+Python==3.14.8
+cloudflared==2026.10.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+click==8.5.0
+fastapi==0.143.0
+h11==0.16.0
+idna==3.20
+opentelemetry-api==1.45.1
+pydantic==2.14.0
+pydantic_core==2.50.0
+python-multipart==0.0.32
+starlette==1.7.0
+typing_extensions==4.16.0
+typing-inspection==0.4.4
+uvicorn==0.54.0
+websockets==16.1.1

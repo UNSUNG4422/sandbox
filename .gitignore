@@ -1,0 +1,18 @@
+# 実行時の保存データ・接続情報・ログ
+SENSE-Online/data/
+SENSE-Online/.runtime/
+SENSE-Online/system/data/
+SENSE-Online/system/.runtime/
+
+# Pythonの実行時キャッシュ
+__pycache__/
+*.pyc
+*.pyo
+
+# ローカルの環境設定・OSファイル
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini

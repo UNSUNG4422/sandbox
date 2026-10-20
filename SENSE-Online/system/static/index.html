@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="みんなの「ふつう」を、数字であそぼう。3〜10人で楽しむオンライン数値感覚クイズ。">
+  <title>SENSE — みんなの「ふつう」を、数字で。</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" data-action="leave" aria-label="SENSE ホーム"><span class="brand-icon">✳</span>SENSE<span class="brand-dot">.</span></a>
+    <div class="side-label">NUMBER SENSE QUIZ</div>
+    <nav id="nav"><button data-tab="play" class="nav-item selected"><span>◈</span>プレイルーム</button><button data-tab="library" class="nav-item"><span>▤</span>問題ライブラリ</button><button data-tab="history" class="nav-item"><span>◷</span>ラウンド履歴</button></nav>
+    <div class="sidebar-note"><div class="note-star">✧</div><b>正解は、みんなの中に。</b><p>知識よりも、あなたの感覚。<br>数字でお互いを知ってみよう。</p></div>
+    <button class="side-help" id="help-button">ⓘ 遊び方・ルール</button>
+    <div class="side-footer"><span class="online-dot"></span>LET'S FIND OUR SENSE <small>v1.1</small></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">プレイスペース <span>/</span> <b id="page-label">ようこそ</b></div><div class="top-actions"><span id="connection" class="connection">オンラインで、いっしょに。</span><button id="rules-button" class="icon-button" aria-label="遊び方">?</button><button id="sound-button" class="icon-button" aria-label="音声設定">♫</button><span class="avatar small" id="my-avatar">S</span></div></header>
+    <main id="app"></main>
+    <footer class="page-footer"><span>SENSE<span class="brand-dot">.</span> <span class="footer-caption">ちがう感覚が、集まる場所。</span></span><span>MADE FOR GOOD COMPANY</span></footer>
+  </div>
+  <div id="reaction-feed" class="reaction-feed" role="status" aria-live="polite" aria-relevant="additions" aria-label="みんなのリアクション"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="time-up" class="time-overlay" hidden><div>TIME UP<span>回答受付を終了しました</span></div></div>
+  <dialog id="modal"><div id="modal-content"></div><button id="close-modal" class="dialog-close" aria-label="閉じる">×</button></dialog>
+  <dialog id="round-intro" class="round-intro" aria-labelledby="round-intro-turn" aria-describedby="round-intro-presenter round-intro-hint"><div class="round-intro-content"><span class="round-intro-mark" aria-hidden="true">✳</span><p class="eyebrow">NEXT QUESTION</p><h2 id="round-intro-turn"></h2><p id="round-intro-total" class="round-intro-total"></p><span class="round-intro-caption">今回の出題者</span><p id="round-intro-presenter" class="round-intro-presenter"></p><p id="round-intro-hint" class="round-intro-hint"></p><div class="round-intro-track" aria-hidden="true"><div id="round-intro-progress"></div></div></div></dialog>
+  <audio id="bgm" preload="metadata"></audio>
+  <section id="youtube-panel" class="youtube-panel" aria-label="YouTubeプレイヤー" hidden><div class="youtube-header"><div class="eyebrow">YOUTUBE PLAYER</div><button id="youtube-close" class="youtube-close" data-action="youtube-close" aria-label="YouTubeを閉じて、この端末の再生を一時停止">× 閉じる</button></div><div id="youtube-player"></div><p id="youtube-message">再生されない場合はプレイヤーの再生ボタンを押してください。</p></section>
+  <button id="youtube-reopen" class="btn youtube-reopen" data-action="youtube-open" aria-controls="youtube-panel" hidden>YouTubeを開く</button>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>
